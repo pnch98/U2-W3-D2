@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Pets</title>
+  </head>
+  <body class="d-flex flex-column align-items-center bg-success m-5">
+    <h1 class="text-center mb-5">Add a pet!!</h1>
+    <div class="bg-dark text-white w-50 p-3 mb-3">
+      <div>
+        <form class="d-flex flex-column justify-content-between align-items-center">
+          <label for="petName">Pet Name</label>
+          <input id="petName" type="text" required />
+          <label for="ownerName">Owner Name</label>
+          <input id="ownerName" type="text" required />
+          <label for="species">Species</label>
+          <input id="species" type="text" />
+          <label for="breed">Breed</label>
+          <input id="breed" type="text" class="mb-3" />
+          <button class="btn btn-success">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row row-cols-4"></div>
+    </div>
+
+    <script src="./js/pet.js"></script>
+    <script src="./js/user.js"></script>
+  </body>
+</html>
